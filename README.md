@@ -18,6 +18,7 @@ Scalable Architecture: The use of Google Cloud technologies like Firebase and Ve
 Technical Architecture
 Our prototype uses a simple but effective architecture that mirrors a real-world, cloud-based industrial solution.
 
+```
 +-------------------+
 | Python Simulator  |
 | (kiln_data_sim.py)|
@@ -44,6 +45,8 @@ Our prototype uses a simple but effective architecture that mirrors a real-world
 | - "Simulate" button triggers      |
 |   a correction logic              |
 +-----------------------------------+
+
+```
 
 Setup & Installation
 To run this prototype, you will need to set up a Firebase project and a Python environment.
