@@ -45,7 +45,6 @@ Our prototype uses a simple but effective architecture that mirrors a real-world
 |   a correction logic              |
 +-----------------------------------+
 
-
 Setup & Installation
 To run this prototype, you will need to set up a Firebase project and a Python environment.
 
