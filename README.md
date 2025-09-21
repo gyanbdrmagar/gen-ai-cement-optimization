@@ -1,24 +1,28 @@
-Gen AI Cement Optimization Prototype
-Project Overview & Problem Statement
+# Gen AI Cement Optimization Prototype
+
+### **Project Overview & Problem Statement**
+
 This project is a prototype for the "Optimizing Cement Operations with Generative AI" problem statement of the Gen AI Exchange Hackathon. It addresses the critical challenge of high energy consumption and operational instability in India's cement industry, specifically focusing on the most energy-intensive process: clinkerization.
 
 Our solution, an AI-driven platform, aims to provide real-time monitoring and autonomous decision-making to optimize kiln operations. This prototype demonstrates a key capability: an AI agent that continuously monitors kiln temperature and provides a real-time recommendation to correct deviations, thereby improving energy efficiency and product quality.
 
-Prototype Scope & Unique Selling Points
+### **Prototype Scope & Unique Selling Points**
+
 This prototype is a proof-of-concept that showcases the core functionality of our proposed solution. It consists of two parts: a backend data simulator and a real-time web dashboard.
 
-Unique Selling Points:
+**Unique Selling Points:**
 
-Holistic Optimization: Unlike traditional control systems that manage isolated processes, our AI platform uses a unified data layer (Firebase Firestore) to enable a cross-process view.
+* **Holistic Optimization:** Unlike traditional control systems that manage isolated processes, our AI platform uses a unified data layer (**Firebase Firestore**) to enable a cross-process view.
 
-Proactive, Not Reactive: The Generative AI core (Gemini) can analyze trends and predict potential issues before they escalate, allowing for proactive, automated adjustments.
+* **Proactive, Not Reactive:** The Generative AI core (**Gemini**) can analyze trends and predict potential issues before they escalate, allowing for proactive, automated adjustments.
 
-Scalable Architecture: The use of Google Cloud technologies like Firebase and Vertex AI ensures that this prototype can scale to a full-fledged, plant-wide autonomous system.
+* **Scalable Architecture:** The use of Google Cloud technologies like Firebase and Vertex AI ensures that this prototype can scale to a full-fledged, plant-wide autonomous system.
 
-Technical Architecture
+### **Technical Architecture**
+
 Our prototype uses a simple but effective architecture that mirrors a real-world, cloud-based industrial solution.
 
-```
+```text
 +-------------------+
 | Python Simulator  |
 | (kiln_data_sim.py)|
@@ -45,9 +49,6 @@ Our prototype uses a simple but effective architecture that mirrors a real-world
 | - "Simulate" button triggers      |
 |   a correction logic              |
 +-----------------------------------+
-
-```
-
 Setup & Installation
 To run this prototype, you will need to set up a Firebase project and a Python environment.
 
