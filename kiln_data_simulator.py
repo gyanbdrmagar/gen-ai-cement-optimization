@@ -94,7 +94,7 @@ def main():
             print(f"Data written: {data_to_write}")
             
             anomaly_counter += 1
-            time.sleep(2)  # Wait 2 seconds before the next data point.
+            time.sleep(5)  # Wait 5 seconds before the next data point.
             
     except KeyboardInterrupt:
         print("\nData simulation stopped.")
