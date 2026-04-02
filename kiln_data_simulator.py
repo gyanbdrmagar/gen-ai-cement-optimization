@@ -33,7 +33,7 @@ kiln_data_ref = db.collection(f"artifacts/{__app_id}/public/data/kiln_data")
 # Reference: https://www.sciencedirect.com/topics/engineering/cement-kiln
 kiln_temp_target = 1450.0  # Celsius
 fuel_rate_base = 50.0     # Tons/hour
-oxygen_level_target = 2.0 # Percent
+oxygen_level_target = 2.5 # Percent
 
 def generate_data(anomaly=False):
     """
