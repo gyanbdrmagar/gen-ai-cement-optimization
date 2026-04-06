@@ -68,7 +68,7 @@ def main():
 
     # A counter to introduce an anomaly after a certain number of cycles.
     anomaly_counter = 0
-    anomaly_interval = 20  # Introduce an anomaly every 20 data points.
+    anomaly_interval = 10  # Introduce an anomaly every 20 data points.
 
     print("Starting data simulation. Press Ctrl+C to stop.")
     try:
